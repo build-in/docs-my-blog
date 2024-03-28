@@ -9,6 +9,7 @@ console.log(posts,'postsposts'); */
 // const { hasSidebar } = useSidebar()
 export default defineConfig({
   title: "组件开发",
+  base: "/docs-my-blog/",
   lang: 'en-US',
   // base: '/base/',
   description: "OMC组件开发站点",
