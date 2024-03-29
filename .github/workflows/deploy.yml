@@ -1,4 +1,4 @@
-name: Deploy VitePress site to Pages
+name: Deploy 开发 VitePress 站点页面
 
 on:
   push:
@@ -28,11 +28,11 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v3 # 安装pnpm并添加到环境变量
         with:
-          version: 8.6.12 # 指定需要的 pnpm 版本
+          version: 8.15.5   # 指定需要的 pnpm 历史版本8.6.12
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18.0.0
           cache: pnpm # 设置缓存
       - name: Setup Pages
         uses: actions/configure-pages@v4  # 在工作流程自动配置GithubPages
