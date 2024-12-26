@@ -3,26 +3,29 @@
 layout: home
 
 hero:
-  name: "OMC组件集成"
-  text: "组件一站式开发"
-  tagline: OMC component one-stop development
+  name: "微应用开发"
+  text: "项目开发指引"
+  tagline: OMC micro front-end development
   image:
     src: img/datawork.png
     alt: 背景图提示
   actions:
     - theme: brand
-      text: Markdown示例
-      link: /markdown-examples
+      text: 微应用开发
+      link: /components/init
     - theme: alt
-      text: API示例
-      link: /api-examples
+      text: 组件开发
+      link: /components/components-state
+    - theme: alt
+      text: OMC新人指引
+      link: https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2R0pbNzHKGomjywVB5r9YAn
 
 features:
   - title: 文档全局搜索
     details: 组件开发
-  - title: 辅助设计指导
-    details: 组件预览
-  - title: 项目样式定制
-    details: 组件定制
+  - title: 辅助指导代码
+    details: 代码开发
+  - title: 通用定制
+    details: 定制方案
 ---
 
