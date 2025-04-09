@@ -20,3 +20,12 @@ n lts        //安装最新长期维护版(lts)
 n rm <version>  // 删除某个版本   e.g：n  rm 10.16.0
 n   // 输入命令后直接使用上下箭头选择版本
 ```
+### 运行效果
+![image](https://github.com/user-attachments/assets/3bb613bb-bad6-4984-91da-192a59696ce3)
+
+![image](https://github.com/user-attachments/assets/a9a5d81d-ba8c-49e0-8066-a40c705de306)
+
+![image](https://github.com/user-attachments/assets/c6884f3c-c36e-41e6-bfca-93f0887e4360)
+
+
+
